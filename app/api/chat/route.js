@@ -1,4 +1,3 @@
-@@ -0,0 +1,50 @@
 // app/api/chat/route.js
 import OpenAI from "openai";
 
