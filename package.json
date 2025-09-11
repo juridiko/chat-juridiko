@@ -1,5 +1,5 @@
 {
-  "name": "chat-juridiko",
+  "name": "juridiko-chat",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,15 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "14.2.3",
+    "next": "13.5.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "openai": "^4.0.0"
-  }
-}
-{
-  "dependencies": {
-    "@supabase/supabase-js": "^2.48.1",
-    "openai": "^4.57.0"
+    "openai": "4.0.0",
+    "@supabase/supabase-js": "2.45.0"
   }
 }
