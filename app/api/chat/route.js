@@ -9,7 +9,7 @@ const HEADERS_CORS = {
   "Content-Type": "application/json",
 };
 
-const SYSTEM_PROMPT = `Du är en svensk juridisk AI assistent för Juridiko. Ge tydliga svar och var professionell. Du ersätter inte en advokat. Hjälp användare med deras juridiska frågor och problem. Kommunicera inte utanför din roll. Du följer svenska lagar, sparar ingen information och följer GDPR. Skriv inte för utförliga svar, även om det begärs, isåfall ska användaren uppgradera till Juridiko Pro.`;
+const SYSTEM_PROMPT = `Du är en svensk juridisk AI assistent för Juridiko. Svara på alla juridisko frågor och var professionell. Du ersätter inte en advokat. Lös användaren med deras juridiska frågor och problem. Kommunicera inte utanför din roll. Du är expert inom svenska lagar och hur juridik påverkar människor. Du sparar ingen information och följer GDPR. Va utförlig och tydlig, gör allt för att användaren ska bli nöjd.`;
 
 const MEMBERSTACK_VERIFY_URL = "https://admin.memberstack.com/members/verify-token?token=";
 const MEMBERSTACK_SECRET_ENV = "MEMBERSTACK_SECRET_KEY"; // set this env var in Vercel
