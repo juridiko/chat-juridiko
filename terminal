@@ -1,0 +1,11 @@
+npm install next@14.2.35  # for 14.x
+npm install next@15.0.7   # for 15.0.x
+npm install next@15.1.11  # for 15.1.x
+npm install next@15.2.8   # for 15.2.x
+npm install next@15.3.8   # for 15.3.x
+npm install next@15.4.10  # for 15.4.x
+npm install next@15.5.9   # for 15.5.x
+npm install next@16.0.10  # for 16.0.x
+ 
+npm install next@15.6.0-canary.60   # for 15.x canary releases
+npm install next@16.1.0-canary.19   # for 16.x canary releases
