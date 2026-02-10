@@ -1,1 +1,27 @@
-npx fix-react2shell-next
+🔍 fix-react2shell-next - CVE-2025-66478 vulnerability scanner
+
+📂 Found 3 package.json file(s)
+
+🚨 Found 2 vulnerable file(s):
+
+  📄 package.json
+     next: ^15.1.0 → 15.1.9
+
+  📄 apps/web/package.json
+     next: ^15.4.3 → 15.4.8
+     react-server-dom-webpack: 19.1.0 → 19.1.2
+
+🔧 Apply fixes? [Y/n] y
+
+🔧 Applying fixes...
+
+   ✓ Updated package.json
+   ✓ Updated apps/web/package.json
+
+📦 Package manager: pnpm
+🔄 Refreshing lockfile...
+
+$ pnpm install
+
+✅ Patches applied!
+   Remember to test your app and commit the changes.
